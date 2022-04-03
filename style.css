@@ -1,13 +1,14 @@
-*{ 
+*{
     margin: 0px;
 }
 
-header {
-    height: 100px;
-    background-color: dodgerblue;
+header{
+height: 100px;
+background-color: dodgerblue;
 }
+
 h1{
- text-align: center;   
+    text-align: center;
 }
 p{
     width: 500px;
@@ -15,17 +16,16 @@ p{
     margin: auto;
 }
 img{
-    width: 200px;
+    width: 300px;
     display: block;
     margin: auto;
 }
-.linguagens {
+.linguagens{
     width: 100px;
 }
 figcaption{
-text-align: center;
+    text-align: center;
 }
-
 div{
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@ footer{
     width: 100%;
     height: 100px;
     background-color: dodgerblue;
-    bottom: 0%;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center
 }
